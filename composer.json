@@ -14,7 +14,7 @@
     ,"autoload":{
         "psr-0":{
             "Aysheka\\Socket":"src/"
-            ,"Aysheka\\Socket\\Test":"test/"
+            ,"Aysheka\\Socket\\Test":"tests/"
         }
     }
 }

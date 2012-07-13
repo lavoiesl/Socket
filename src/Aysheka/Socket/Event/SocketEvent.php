@@ -6,6 +6,7 @@ use Aysheka\Socket\Socket;
 
 class SocketEvent extends Event
 {
+    const BASE      = 'aysheka.socket.event';
     const READ      = 'aysheka.socket.event.io.read';
     const WRITE     = 'aysheka.socket.event.io.write';
     const OPEN      = 'aysheka.socket.event.init.open';

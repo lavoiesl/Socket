@@ -75,7 +75,11 @@ class Socket
             $this->socketResource = null;
             if ($this->getEventDispatcher())
                 $this->getEventDispatcher()->dispatch(SocketEvent::CLOSE, new SocketEvent($this));
+
+            return true;
         }
+
+        return false;
     }
 
     protected function getSocketResource()

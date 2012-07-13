@@ -34,6 +34,4 @@ class Client extends Socket
     {
         $this->write($data);
     }
-
-
 }
